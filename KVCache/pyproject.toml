@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "KvCache"
+version = "0.1.0"
+description = "KV Cache Experimentations"
+authors = ["rlrahulkanojia"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^2.2.1"
+torch = "^2.5.1"
+transformers = "^4.47.1"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
