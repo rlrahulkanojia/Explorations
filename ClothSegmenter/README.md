@@ -4,9 +4,9 @@ FastAPI to process the image and output the individual clothes mask.
 
 ## Approach
 
-To the solution for the problem statementconsiste of 2 essentiual components:
+To the solution for the problem statement consiste of 2 essentiual components:
 1. API Structure
-2. Model Inference(Can be improved.)
+2. Model Inference (Can be improved)
 
 I have used a modular approach towards building the API infrastructure which makes it easier to use the steps involved in the process independently.
 
@@ -42,6 +42,11 @@ After running the API locally:
 You have to add a `POST` request to URL `http://0.0.0.0:8080/api/v1/get-cloth?file=` with a key named `file` and you can use the image provided in `tests/resources/images`
 
 ![Postman Configuration](tests/resources/images/image.png)
+
+
+## Streamlit UI
+
+![Streamit](tests/resources/images/streamlit.png)
 
 
 ## Scope of improvements:
