@@ -1,0 +1,12 @@
+# Cache
+*.pyc
+.mypy_cache
+.import_linter_cache
+*__pycache__*
+.python-version
+
+# folders
+output*
+model*
+*.pth
+*.json
